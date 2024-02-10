@@ -41,8 +41,11 @@ function getDOB() {
         document.getElementById("currentAge").innerHTML = "Invalid Date"; 
     else
         document.getElementById("currentAge").innerHTML = 
-            "Your current Age is " + yearDiff + " years "
-            + monthDiff + " months " + dateDiff + " days"; 
+            // "Your current Age is " + yearDiff + " years "
+            // + monthDiff + " months " + dateDiff + " days"
+            // +"Created by Ejazul"; 
+            `Your current Age is ${yearDiff} years 
+            ${monthDiff} months ${dateDiff} days`; 
 } 
   
 // Function to provide default date value 
