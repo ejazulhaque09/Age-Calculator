@@ -9,27 +9,27 @@
 <body>
     <div class="card">
         <header>
-            <h1> Age Calculator Mini</h1>
+            <h1>AGE CALCULATOR</h1>
         </header>
 
         <div>
-            <label>Enter your date of birth</label>
-            <input type="date" name="inputDOB" id="inputDOB" value = "2000-01-01">
+            <label> Enter your date of birth</label>
+            <input type="date" name="dateOfBirth" id="inputDOB" value="2000-01-01">
         </div>
         <br>
-
         <div>
-            <label> Current Date</label>
-            <input type="date" name="currentDate" id="currentDate" value="2000-01-01">
+            <label>Current Date</label><br>
+            <input type="date" name="currentDate" id="currentDate" value= "2000-01-01">
         </div>
-        <br>
-
-        <button type="button" onclick="getDOB()"> Calculate</button>
-
+        <br />
+        <button type="button"
+                onclick="getDOB()">
+            Calculate
+        </button>
+        <br />
         <div id="currentAge"></div>
+        <script src="ageCalculator.js"></script>
 
-        <script scr="script.js"></script>
     </div>
-    
 </body>
 </html>
